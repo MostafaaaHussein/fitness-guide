@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Фитнес Гид",
+    "description": "Персональные планы питания и тренировок для Бедо и Джулии"
+  },
+  "home": {
+    "brand": "Фитнес Гид",
+    "title": "Выберите программу",
+    "subtitle": "Питание и тренировки под каждый профиль",
+    "bedoDesc": "Сушка — сила и сохранение мышц",
+    "juliaDesc": "Женская сушка — форма и сила",
+    "enter": "Открыть программу"
+  },
+  "nav": {
+    "home": "Главная",
+    "nutrition": "Питание",
+    "workout": "Тренировка",
+    "water": "Вода",
+    "notes": "Заметки",
+    "back": "Назад"
+  },
+  "common": {
+    "dark": "Тёмная",
+    "light": "Светлая",
+    "language": "Язык",
+    "print": "Печать",
+    "exportPdf": "Экспорт PDF",
+    "completed": "Выполнено",
+    "progress": "Прогресс",
+    "reset": "Сброс",
+    "save": "Сохранить",
+    "today": "Сегодня",
+    "sets": "Подходы",
+    "reps": "Повторы",
+    "weight": "Вес (кг)",
+    "notes": "Заметки",
+    "alternatives": "Альтернативы",
+    "calories": "Калории",
+    "protein": "Белок",
+    "carbs": "Углеводы",
+    "fat": "Жиры",
+    "grams": "Граммы",
+    "ingredients": "Состав",
+    "day": "День",
+    "rest": "Отдых",
+    "optional": "Опционально",
+    "lightMode": "Светлая тема",
+    "darkMode": "Тёмная тема"
+  },
+  "workout": {
+    "title": "План тренировок",
+    "summary": "Итоги тренировки",
+    "exercisesCompleted": "Упражнения выполнены",
+    "setsCompleted": "Подходы выполнены",
+    "totalReps": "Всего повторов",
+    "workoutProgress": "Прогресс тренировки",
+    "exerciseCompleted": "Упражнение выполнено",
+    "chooseExercise": "Выберите упражнение",
+    "restTimer": "Таймер отдыха",
+    "cardio": "Кардио",
+    "cardioLabel": "20–30 минут выполнено",
+    "accessories": "Дополнительные упражнения",
+    "accessoriesHint": "Добавьте одно-два за сессию — не все сразу",
+    "openMuscleWiki": "Открыть в MuscleWiki",
+    "printWorkout": "Печать тренировки",
+    "set": "Подход",
+    "timerDone": "Отдых завершён!",
+    "resetDay": "Сбросить день",
+    "dayHeading": "День {day} — {focus}",
+    "restDayMessage": "День отдыха — восстановитесь, погуляйте и хорошо выспитесь",
+    "focuses": {
+      "Push": "Жим",
+      "Pull": "Тяга",
+      "Legs": "Ноги",
+      "Upper": "Верх",
+      "Shoulders & Arms": "Плечи и руки",
+      "Lower": "Низ",
+      "Rest": "Отдых"
+    }
+  },
+  "nutrition": {
+    "title": "План питания",
+    "mealsProgress": "Прогресс приёмов пищи",
+    "goals": "Дневные цели",
+    "substitutions": "Замены",
+    "printNutrition": "Печать питания",
+    "phase": "Фаза",
+    "waterGoal": "Цель по воде",
+    "training": "Тренировки",
+    "dayTotals": "Итого за день ≈ {calories} ккал · Белок {protein}г · Углеводы {carbs}г · Жиры {fat}г",
+    "weekdays": {
+      "Saturday": "Суббота",
+      "Sunday": "Воскресенье",
+      "Monday": "Понедельник",
+      "Tuesday": "Вторник",
+      "Wednesday": "Среда",
+      "Thursday": "Четверг",
+      "Friday": "Пятница"
+    },
+    "meals": {
+      "breakfast": "Завтрак",
+      "snack": "Перекус",
+      "lunch": "Обед",
+      "preWorkout": "До тренировки",
+      "postWorkout": "После тренировки",
+      "dinner": "Ужин",
+      "beforeSleep": "Перед сном"
+    },
+    "subGroups": {
+      "protein": "Замены белка",
+      "carbs": "Замены углеводов",
+      "fats": "Замены жиров",
+      "snackNuts": "Орехи для перекуса",
+      "preWorkoutFruit": "Фрукты до тренировки",
+      "preWorkoutCarbs": "Углеводы до тренировки"
+    }
+  },
+  "water": {
+    "title": "Трекер воды",
+    "goal": "Цель",
+    "current": "Сейчас",
+    "add250": "+250 мл",
+    "add500": "+500 мл",
+    "liters": "л",
+    "keepHydrated": "Пейте воду в течение дня"
+  },
+  "notes": {
+    "title": "Заметки",
+    "placeholder": "Пишите заметки здесь...",
+    "saved": "Сохранено автоматически"
+  }
+}

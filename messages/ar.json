@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "دليل اللياقة",
+    "description": "خطط أكل وتمارين مخصوصة لبدو وجوليا"
+  },
+  "home": {
+    "brand": "دليل اللياقة",
+    "title": "اختار برنامجك",
+    "subtitle": "أكل وتمارين مناسبين لكل شخص",
+    "bedoDesc": "مرحلة تنشيف — قوة والحفاظ على العضلات",
+    "juliaDesc": "تنشيف بنات — تركيز على الشكل والقوة",
+    "enter": "ادخل البرنامج"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "nutrition": "الأكل",
+    "workout": "التمرين",
+    "water": "الميه",
+    "notes": "الملاحظات",
+    "back": "رجوع"
+  },
+  "common": {
+    "dark": "غامق",
+    "light": "فاتح",
+    "language": "اللغة",
+    "print": "طباعة",
+    "exportPdf": "تصدير PDF",
+    "completed": "اتعمل",
+    "progress": "التقدم",
+    "reset": "تصفير",
+    "save": "حفظ",
+    "today": "النهارده",
+    "sets": "مجموعات",
+    "reps": "عدّات",
+    "weight": "الوزن بالكيلو",
+    "notes": "ملاحظات",
+    "alternatives": "بدائل",
+    "calories": "سعرات",
+    "protein": "بروتين",
+    "carbs": "نشويات",
+    "fat": "دهون",
+    "grams": "الجرامات",
+    "ingredients": "المكونات",
+    "day": "اليوم",
+    "rest": "راحة",
+    "optional": "اختياري",
+    "lightMode": "الوضع الفاتح",
+    "darkMode": "الوضع الغامق"
+  },
+  "workout": {
+    "title": "خطة التمرين",
+    "summary": "ملخص التمرين",
+    "exercisesCompleted": "تمارين خلصت",
+    "setsCompleted": "مجموعات خلصت",
+    "totalReps": "مجموع العدّات",
+    "workoutProgress": "تقدم التمرين",
+    "exerciseCompleted": "التمرين خلص",
+    "chooseExercise": "اختار التمرين",
+    "restTimer": "مؤقت الراحة",
+    "cardio": "كارديو",
+    "cardioLabel": "خلصت من ٢٠ لـ ٣٠ دقيقة",
+    "accessories": "تمارين زيادة",
+    "accessoriesHint": "زوّد تمرين أو اتنين بس — متجمعش الكل في يوم واحد",
+    "openMuscleWiki": "افتح على MuscleWiki",
+    "printWorkout": "اطبع التمرين",
+    "set": "مجموعة",
+    "timerDone": "الراحة خلصت!",
+    "resetDay": "صفّر اليوم",
+    "dayHeading": "اليوم {day} — {focus}",
+    "restDayMessage": "يوم راحة — ارتاح وامشي شوية ونام كويس",
+    "focuses": {
+      "Push": "دفع",
+      "Pull": "سحب",
+      "Legs": "رجلين",
+      "Upper": "جزء علوي",
+      "Shoulders & Arms": "أكتاف ودراعات",
+      "Lower": "جزء سفلي",
+      "Rest": "راحة"
+    }
+  },
+  "nutrition": {
+    "title": "خطة الأكل",
+    "mealsProgress": "تقدم الوجبات",
+    "goals": "أهداف اليوم",
+    "substitutions": "جدول البدائل",
+    "printNutrition": "اطبع الأكل",
+    "phase": "المرحلة",
+    "waterGoal": "هدف الميه",
+    "training": "التمرين",
+    "dayTotals": "مجموع اليوم تقريباً {calories} سعرة · بروتين {protein} جم · نشويات {carbs} جم · دهون {fat} جم",
+    "weekdays": {
+      "Saturday": "السبت",
+      "Sunday": "الأحد",
+      "Monday": "الاثنين",
+      "Tuesday": "الثلاثاء",
+      "Wednesday": "الأربعاء",
+      "Thursday": "الخميس",
+      "Friday": "الجمعة"
+    },
+    "meals": {
+      "breakfast": "فطار",
+      "snack": "سناك",
+      "lunch": "غدا",
+      "preWorkout": "قبل التمرين",
+      "postWorkout": "بعد التمرين",
+      "dinner": "عشا",
+      "beforeSleep": "قبل النوم"
+    },
+    "subGroups": {
+      "protein": "بدائل البروتين",
+      "carbs": "بدائل النشويات",
+      "fats": "بدائل الدهون",
+      "snackNuts": "مكسرات السناك",
+      "preWorkoutFruit": "فاكهة قبل التمرين",
+      "preWorkoutCarbs": "نشويات قبل التمرين"
+    }
+  },
+  "water": {
+    "title": "متابعة الميه",
+    "goal": "الهدف",
+    "current": "الكمية دلوقتي",
+    "add250": "+٢٥٠ مللي",
+    "add500": "+٥٠٠ مللي",
+    "liters": "لتر",
+    "keepHydrated": "اشرب ميه طول اليوم"
+  },
+  "notes": {
+    "title": "الملاحظات",
+    "placeholder": "اكتب ملاحظاتك هنا...",
+    "saved": "اتحفظ لوحده"
+  }
+}

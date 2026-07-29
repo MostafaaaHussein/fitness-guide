@@ -1,0 +1,36 @@
+{
+  "exercises": [
+    {
+      "id": "acc-traps",
+      "muscle": "Traps",
+      "options": [
+        { "name": "Machine Standing Shrug", "slug": "machine-standing-shrug" },
+        { "name": "Dumbbell Shrug", "slug": "dumbbell-shrug" }
+      ],
+      "sets": 3,
+      "reps": "10-15",
+      "placement": "Pull or Shoulders & Arms"
+    },
+    {
+      "id": "acc-lower-back",
+      "muscle": "Lower back",
+      "options": [
+        { "name": "Machine 45 Degree Back Extension", "slug": "machine-45-degree-back-extension" }
+      ],
+      "sets": 3,
+      "reps": "10-15",
+      "placement": "Pull or Lower"
+    },
+    {
+      "id": "acc-abs",
+      "muscle": "Abs",
+      "options": [
+        { "name": "Machine Crunch", "slug": "machine-crunch" },
+        { "name": "Cable Kneeling Crunch", "slug": "cable-kneeling-crunch" }
+      ],
+      "sets": 3,
+      "reps": "12-15",
+      "placement": "After any session 2-4x/week"
+    }
+  ]
+}

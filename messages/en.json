@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Fitness Guide",
+    "description": "Personalized nutrition and workout plans for Bedo and Julia"
+  },
+  "home": {
+    "brand": "Fitness Guide",
+    "title": "Choose Your Program",
+    "subtitle": "Tailored nutrition and training for each profile",
+    "bedoDesc": "Cutting phase — strength and muscle retention",
+    "juliaDesc": "Female cutting — shape and strength focused",
+    "enter": "Enter program"
+  },
+  "nav": {
+    "home": "Home",
+    "nutrition": "Nutrition",
+    "workout": "Workout",
+    "water": "Water",
+    "notes": "Notes",
+    "back": "Back"
+  },
+  "common": {
+    "dark": "Dark",
+    "light": "Light",
+    "language": "Language",
+    "print": "Print",
+    "exportPdf": "Export PDF",
+    "completed": "Completed",
+    "progress": "Progress",
+    "reset": "Reset",
+    "save": "Save",
+    "today": "Today",
+    "sets": "Sets",
+    "reps": "Reps",
+    "weight": "Weight (kg)",
+    "notes": "Notes",
+    "alternatives": "Alternatives",
+    "calories": "Calories",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat",
+    "grams": "Grams",
+    "ingredients": "Ingredients",
+    "day": "Day",
+    "rest": "Rest",
+    "optional": "Optional",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode"
+  },
+  "workout": {
+    "title": "Workout Plan",
+    "summary": "Workout Summary",
+    "exercisesCompleted": "Exercises Completed",
+    "setsCompleted": "Sets Completed",
+    "totalReps": "Total Reps",
+    "workoutProgress": "Workout Progress",
+    "exerciseCompleted": "Exercise Completed",
+    "chooseExercise": "Choose exercise",
+    "restTimer": "Rest Timer",
+    "cardio": "Cardio",
+    "cardioLabel": "20–30 Minutes Completed",
+    "accessories": "Accessory Exercises",
+    "accessoriesHint": "Add one or two per session — do not stack all in one day",
+    "openMuscleWiki": "Open in MuscleWiki",
+    "printWorkout": "Print Workout",
+    "set": "Set",
+    "timerDone": "Rest complete!",
+    "resetDay": "Reset day",
+    "dayHeading": "Day {day} — {focus}",
+    "restDayMessage": "Rest day — recover, walk, and sleep well",
+    "focuses": {
+      "Push": "Push",
+      "Pull": "Pull",
+      "Legs": "Legs",
+      "Upper": "Upper",
+      "Shoulders & Arms": "Shoulders & Arms",
+      "Lower": "Lower",
+      "Rest": "Rest"
+    }
+  },
+  "nutrition": {
+    "title": "Nutrition Plan",
+    "mealsProgress": "Meals Progress",
+    "goals": "Daily Goals",
+    "substitutions": "Substitutions",
+    "printNutrition": "Print Nutrition",
+    "phase": "Phase",
+    "waterGoal": "Water goal",
+    "training": "Training",
+    "dayTotals": "Day totals ≈ {calories} kcal · Protein {protein}g · Carbs {carbs}g · Fat {fat}g",
+    "weekdays": {
+      "Saturday": "Saturday",
+      "Sunday": "Sunday",
+      "Monday": "Monday",
+      "Tuesday": "Tuesday",
+      "Wednesday": "Wednesday",
+      "Thursday": "Thursday",
+      "Friday": "Friday"
+    },
+    "meals": {
+      "breakfast": "Breakfast",
+      "snack": "Snack",
+      "lunch": "Lunch",
+      "preWorkout": "Pre-Workout",
+      "postWorkout": "Post-Workout",
+      "dinner": "Dinner",
+      "beforeSleep": "Before Sleep"
+    },
+    "subGroups": {
+      "protein": "Protein swaps",
+      "carbs": "Carb swaps",
+      "fats": "Fat swaps",
+      "snackNuts": "Snack nuts",
+      "preWorkoutFruit": "Pre-workout fruit",
+      "preWorkoutCarbs": "Pre-workout carbs"
+    }
+  },
+  "water": {
+    "title": "Water Tracker",
+    "goal": "Goal",
+    "current": "Current",
+    "add250": "+250 ml",
+    "add500": "+500 ml",
+    "liters": "L",
+    "keepHydrated": "Stay hydrated throughout the day"
+  },
+  "notes": {
+    "title": "Notes",
+    "placeholder": "Write your notes here...",
+    "saved": "Saved automatically"
+  }
+}
