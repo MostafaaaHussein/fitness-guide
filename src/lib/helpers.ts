@@ -1,14 +1,11 @@
 import type { Locale } from "./types";
 
-const MUSCLEWIKI_LOCALE: Record<Locale, string> = {
-  ar: "ar-sa",
-  en: "en",
-  ru: "ru",
-};
+const MUSCLEWIKI_LOCALE_PREFIX = "ar-sa";
 
-export function muscleWikiUrl(slug: string, locale: Locale = "ar"): string {
-  const pathLocale = MUSCLEWIKI_LOCALE[locale] ?? "ar-sa";
-  return `https://musclewiki.com/${pathLocale}/exercise/${slug}`;
+export function muscleWikiUrl(slug: string, _locale: Locale = "ar"): string {
+  const normalizedSlug = slug.trim().replace(/\s+/g, "-");
+  const path = [MUSCLEWIKI_LOCALE_PREFIX, "exercise", encodeURIComponent(normalizedSlug)].join("/");
+  return new URL(path, "https://musclewiki.com/").toString();
 }
 
 export function todayKey(): string {
