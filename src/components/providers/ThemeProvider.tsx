@@ -31,6 +31,18 @@ function getSystemTheme(): ResolvedTheme {
     : "light";
 }
 
+function getStoredTheme(): Theme {
+  if (typeof window === "undefined") return "system";
+  const stored = window.localStorage.getItem(STORAGE_KEY);
+  return stored === "light" || stored === "dark" || stored === "system"
+    ? stored
+    : "system";
+}
+
+function resolveTheme(theme: Theme): ResolvedTheme {
+  return theme === "system" ? getSystemTheme() : theme;
+}
+
 function applyTheme(resolved: ResolvedTheme) {
   const root = document.documentElement;
   root.classList.toggle("dark", resolved === "dark");
@@ -38,39 +50,29 @@ function applyTheme(resolved: ResolvedTheme) {
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>("system");
-  const [resolvedTheme, setResolvedTheme] = useState<ResolvedTheme>("light");
+  const [theme, setThemeState] = useState<Theme>(getStoredTheme);
+  const [resolvedTheme, setResolvedTheme] = useState<ResolvedTheme>(() =>
+    resolveTheme(getStoredTheme())
+  );
 
   useLayoutEffect(() => {
-    const stored = window.localStorage.getItem(STORAGE_KEY) as Theme | null;
-    const initial =
-      stored === "light" || stored === "dark" || stored === "system"
-        ? stored
-        : "system";
-    const resolved = initial === "system" ? getSystemTheme() : initial;
-    setThemeState(initial);
-    setResolvedTheme(resolved);
-    applyTheme(resolved);
-  }, []);
+    applyTheme(resolvedTheme);
+  }, [resolvedTheme]);
 
   useEffect(() => {
     if (theme !== "system") return;
     const mq = window.matchMedia("(prefers-color-scheme: dark)");
     const onChange = () => {
-      const resolved = getSystemTheme();
-      setResolvedTheme(resolved);
-      applyTheme(resolved);
+      setResolvedTheme(getSystemTheme());
     };
     mq.addEventListener("change", onChange);
     return () => mq.removeEventListener("change", onChange);
   }, [theme]);
 
   const setTheme = useCallback((next: Theme) => {
-    const resolved = next === "system" ? getSystemTheme() : next;
     window.localStorage.setItem(STORAGE_KEY, next);
     setThemeState(next);
-    setResolvedTheme(resolved);
-    applyTheme(resolved);
+    setResolvedTheme(resolveTheme(next));
   }, []);
 
   const value = useMemo(
