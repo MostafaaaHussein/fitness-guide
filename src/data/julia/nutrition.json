@@ -14,7 +14,7 @@
     "Vegetables and salads are weighed raw.",
     "Drink 3–4 liters of water daily.",
     "Black coffee or tea without sugar is allowed. Zero-calorie sweeteners are allowed.",
-    "Post-workout protein should prioritize whole foods (chicken, fish, lean beef, eggs, or cottage cheese).",
+    "Post-workout protein should prioritize whole foods (chicken, fish, tuna, eggs, or cottage cheese).",
     "Maintain progressive overload while keeping proper exercise technique."
   ],
   "days": [
@@ -24,20 +24,20 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "2 whole eggs (100g) + 3 egg whites (100g) + 50g oats + 200ml skim milk + 200g mixed vegetables",
-          "grams": "whole eggs 100g, egg whites 100g, oats 50g, milk 200ml, veg 200g",
-          "alternatives": ["Cottage cheese 200g + whole wheat toast 40g + mixed vegetables 200g"],
-          "calories": 410,
-          "protein": 35,
-          "carbs": 42,
-          "fat": 11
+          "ingredients": "2 whole eggs (100g) + 3 egg whites (100g) + 45g oats + 200ml skim milk + 200g vegetables",
+          "grams": "whole eggs 100g, egg whites 100g, oats 45g, milk 200ml, vegetables 200g",
+          "alternatives": ["180g cottage cheese + 70g whole wheat toast + 200g mixed vegetables"],
+          "calories": 405,
+          "protein": 34,
+          "carbs": 37,
+          "fat": 12
         },
         {
           "id": "snack",
           "name": "Snack",
           "ingredients": "170g light Greek yogurt + 15g almonds",
           "grams": "yogurt 170g, almonds 15g",
-          "alternatives": ["Greek yogurt 170g + walnuts 15g", "Greek yogurt 170g + pistachios 15g"],
+          "alternatives": ["170g light Greek yogurt + 15g walnuts", "170g light Greek yogurt + 15g pistachios"],
           "calories": 180,
           "protein": 19,
           "carbs": 10,
@@ -46,12 +46,12 @@
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "150g grilled chicken breast + 160g cooked white rice + 300g salad + 5g olive oil",
+          "ingredients": "150g grilled chicken breast + 160g cooked rice + 300g salad + 5g olive oil",
           "grams": "chicken 150g, rice 160g, salad 300g, oil 5g",
-          "alternatives": ["Grilled white fish 170g + cooked white rice 160g + salad", "Lean beef 150g + cooked white rice 160g + salad"],
-          "calories": 420,
-          "protein": 38,
-          "carbs": 48,
+          "alternatives": ["180g grilled white fish + 160g cooked rice + 300g salad", "150g lean beef + 160g cooked rice + 300g salad"],
+          "calories": 430,
+          "protein": 36,
+          "carbs": 47,
           "fat": 10
         },
         {
@@ -59,33 +59,33 @@
           "name": "Pre-Workout",
           "ingredients": "100g banana + 40g whole wheat toast",
           "grams": "banana 100g, toast 40g",
-          "alternatives": ["Banana 100g + rice cakes 40g", "Apple 150g + whole wheat toast 40g"],
-          "calories": 170,
-          "protein": 5,
-          "carbs": 38,
+          "alternatives": ["100g banana + 20g rice cakes", "150g apple + 40g whole wheat toast"],
+          "calories": 175,
+          "protein": 4,
+          "carbs": 37,
           "fat": 1
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "120g grilled chicken breast + 80g cooked white rice",
-          "grams": "chicken 120g, rice 80g",
-          "alternatives": ["Grilled white fish 130g + cooked white rice 80g", "Lean beef 120g + cooked white rice 80g"],
-          "calories": 235,
-          "protein": 30,
-          "carbs": 22,
+          "ingredients": "130g grilled chicken breast + 90g cooked rice",
+          "grams": "chicken 130g, rice 90g",
+          "alternatives": ["130g grilled chicken breast + 90g cooked rice", "150g grilled white fish + 80g cooked rice"],
+          "calories": 265,
+          "protein": 34,
+          "carbs": 25,
           "fat": 3
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "180g cottage cheese + 250g salad + 10g peanuts",
-          "grams": "cottage cheese 180g, salad 250g, peanuts 10g",
-          "alternatives": ["2 whole eggs + 120g egg whites + salad 250g", "Grilled white fish 170g + salad 250g"],
-          "calories": 190,
-          "protein": 18,
-          "carbs": 8,
-          "fat": 10
+          "ingredients": "180g cottage cheese + 250g salad + 8g almonds",
+          "grams": "cottage cheese 180g, salad 250g, almonds 8g",
+          "alternatives": ["2 whole eggs + 3 egg whites + 250g salad", "170g grilled white fish + 250g salad"],
+          "calories": 210,
+          "protein": 20,
+          "carbs": 9,
+          "fat": 11
         }
       ]
     },
@@ -95,32 +95,32 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "180g cottage cheese + 40g whole wheat toast + 200g mixed vegetables + 1 whole egg",
-          "grams": "cottage cheese 180g, toast 40g, veg 200g, egg 1",
-          "alternatives": ["2 whole eggs + 3 egg whites + 50g oats + 200ml skim milk"],
-          "calories": 350,
-          "protein": 33,
-          "carbs": 32,
-          "fat": 11
+          "ingredients": "180g cottage cheese + 70g whole wheat toast + 200g mixed vegetables",
+          "grams": "cottage cheese 180g, toast 70g, vegetables 200g",
+          "alternatives": ["2 whole eggs + 3 egg whites + 45g oats + 200ml skim milk"],
+          "calories": 345,
+          "protein": 31,
+          "carbs": 34,
+          "fat": 7
         },
         {
           "id": "snack",
           "name": "Snack",
           "ingredients": "170g light Greek yogurt + 15g walnuts",
           "grams": "yogurt 170g, walnuts 15g",
-          "alternatives": ["Greek yogurt 170g + almonds 15g", "Greek yogurt 170g + pistachios 15g"],
-          "calories": 190,
+          "alternatives": ["170g light Greek yogurt + 15g almonds", "170g light Greek yogurt + 15g pistachios"],
+          "calories": 185,
           "protein": 18,
           "carbs": 10,
-          "fat": 11
+          "fat": 10
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "170g grilled white fish + 250g boiled potatoes + 300g salad + 5g olive oil",
-          "grams": "fish 170g, potatoes 250g, salad 300g, oil 5g",
-          "alternatives": ["Grilled chicken breast 160g + boiled potatoes 250g + salad", "Shrimp 170g + boiled potatoes 250g + salad"],
-          "calories": 400,
+          "ingredients": "180g grilled white fish + 220g boiled potatoes + 300g salad + 5g olive oil",
+          "grams": "fish 180g, potatoes 220g, salad 300g, oil 5g",
+          "alternatives": ["150g grilled chicken breast + 220g boiled potatoes + 300g salad", "180g shrimp + 220g boiled potatoes + 300g salad"],
+          "calories": 420,
           "protein": 38,
           "carbs": 45,
           "fat": 9
@@ -128,35 +128,35 @@
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "100g banana + 40g whole wheat toast + 100g light Greek yogurt",
-          "grams": "banana 100g, toast 40g, yogurt 100g",
-          "alternatives": ["Banana 100g + rice cakes 40g + yogurt 100g", "Apple 150g + whole wheat toast 40g + yogurt 100g"],
-          "calories": 220,
-          "protein": 13,
-          "carbs": 42,
-          "fat": 2
+          "ingredients": "100g banana + 20g rice cakes",
+          "grams": "banana 100g, rice cakes 20g",
+          "alternatives": ["100g banana + 40g whole wheat toast", "150g apple + 20g rice cakes"],
+          "calories": 165,
+          "protein": 2,
+          "carbs": 40,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "120g grilled chicken breast + 80g cooked white rice",
-          "grams": "chicken 120g, rice 80g",
-          "alternatives": ["Grilled white fish 130g + cooked white rice 80g", "Lean beef 120g + cooked white rice 80g"],
-          "calories": 235,
-          "protein": 30,
-          "carbs": 22,
+          "ingredients": "130g grilled chicken breast + 90g cooked rice",
+          "grams": "chicken 130g, rice 90g",
+          "alternatives": ["130g grilled chicken breast + 90g cooked rice", "150g grilled white fish + 80g cooked rice"],
+          "calories": 265,
+          "protein": 34,
+          "carbs": 25,
           "fat": 3
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "2 whole eggs + 120g egg whites + 250g salad + 10g peanuts",
-          "grams": "whole eggs 2, egg whites 120g, salad 250g, peanuts 10g",
-          "alternatives": ["180g cottage cheese + salad 250g", "170g grilled white fish + salad 250g"],
+          "ingredients": "2 whole eggs + 3 egg whites + 250g salad",
+          "grams": "whole eggs 2, egg whites 3, salad 250g",
+          "alternatives": ["180g cottage cheese + 250g salad", "170g grilled white fish + 250g salad"],
           "calories": 220,
-          "protein": 22,
-          "carbs": 9,
-          "fat": 10
+          "protein": 20,
+          "carbs": 8,
+          "fat": 15
         }
       ]
     },
@@ -166,20 +166,20 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "50g oats + 200ml skim milk + 3 egg whites (100g) + 2 whole eggs (100g) + 200g mixed vegetables",
-          "grams": "oats 50g, milk 200ml, egg whites 100g, whole eggs 100g, veg 200g",
-          "alternatives": ["Cottage cheese 200g + whole wheat toast 40g + mixed vegetables 200g"],
-          "calories": 420,
-          "protein": 36,
-          "carbs": 43,
+          "ingredients": "2 whole eggs (100g) + 3 egg whites (100g) + 45g oats + 200ml skim milk + 200g vegetables",
+          "grams": "whole eggs 100g, egg whites 100g, oats 45g, milk 200ml, vegetables 200g",
+          "alternatives": ["180g cottage cheese + 70g whole wheat toast + 200g mixed vegetables"],
+          "calories": 405,
+          "protein": 34,
+          "carbs": 37,
           "fat": 12
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "170g light Greek yogurt + 15g almonds",
-          "grams": "yogurt 170g, almonds 15g",
-          "alternatives": ["Greek yogurt 170g + walnuts 15g", "Greek yogurt 170g + pistachios 15g"],
+          "ingredients": "170g light Greek yogurt + 15g peanuts",
+          "grams": "yogurt 170g, peanuts 15g",
+          "alternatives": ["170g light Greek yogurt + 15g almonds", "170g light Greek yogurt + 15g walnuts"],
           "calories": 180,
           "protein": 19,
           "carbs": 10,
@@ -188,46 +188,46 @@
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "160g grilled chicken breast + 160g cooked white rice + 300g salad + 5g olive oil",
-          "grams": "chicken 160g, rice 160g, salad 300g, oil 5g",
-          "alternatives": ["Grilled white fish 170g + cooked white rice 160g + salad", "Lean beef 160g + cooked white rice 160g + salad"],
-          "calories": 440,
-          "protein": 42,
-          "carbs": 48,
-          "fat": 10
+          "ingredients": "150g lean beef + 160g cooked rice + 300g salad + 5g olive oil",
+          "grams": "lean beef 150g, rice 160g, salad 300g, oil 5g",
+          "alternatives": ["150g grilled chicken breast + 160g cooked rice + 300g salad", "180g grilled white fish + 160g cooked rice + 300g salad"],
+          "calories": 445,
+          "protein": 35,
+          "carbs": 47,
+          "fat": 12
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
           "ingredients": "100g banana + 40g whole wheat toast",
           "grams": "banana 100g, toast 40g",
-          "alternatives": ["Banana 100g + rice cakes 40g", "Apple 150g + whole wheat toast 40g"],
-          "calories": 170,
-          "protein": 5,
-          "carbs": 38,
+          "alternatives": ["100g banana + 20g rice cakes", "150g apple + 40g whole wheat toast"],
+          "calories": 175,
+          "protein": 4,
+          "carbs": 37,
           "fat": 1
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "120g grilled lean beef + 80g cooked white rice",
-          "grams": "lean beef 120g, rice 80g",
-          "alternatives": ["Grilled chicken breast 120g + cooked white rice 80g", "Grilled white fish 130g + cooked white rice 80g"],
-          "calories": 260,
-          "protein": 31,
-          "carbs": 22,
-          "fat": 6
+          "ingredients": "130g grilled chicken breast + 90g cooked rice",
+          "grams": "chicken 130g, rice 90g",
+          "alternatives": ["150g grilled white fish + 80g cooked rice", "130g grilled chicken breast + 90g cooked rice"],
+          "calories": 265,
+          "protein": 34,
+          "carbs": 25,
+          "fat": 3
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "200g cottage cheese + 250g salad + 10g peanuts",
-          "grams": "cottage cheese 200g, salad 250g, peanuts 10g",
-          "alternatives": ["2 whole eggs + 120g egg whites + salad 250g", "170g grilled white fish + salad 250g"],
-          "calories": 160,
-          "protein": 18,
-          "carbs": 8,
-          "fat": 8
+          "ingredients": "180g cottage cheese + 250g mixed vegetables + 8g almonds",
+          "grams": "cottage cheese 180g, vegetables 250g, almonds 8g",
+          "alternatives": ["2 whole eggs + 3 egg whites + 250g mixed vegetables", "170g grilled white fish + 250g mixed vegetables"],
+          "calories": 210,
+          "protein": 20,
+          "carbs": 9,
+          "fat": 11
         }
       ]
     },
@@ -237,68 +237,68 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "200g cottage cheese + 40g whole wheat toast + 200g mixed vegetables + 1 whole egg",
-          "grams": "cottage cheese 200g, toast 40g, veg 200g, egg 1",
-          "alternatives": ["2 whole eggs + 3 egg whites + 50g oats + 200ml skim milk"],
-          "calories": 360,
-          "protein": 34,
-          "carbs": 34,
-          "fat": 12
+          "ingredients": "200g cottage cheese + 70g whole wheat toast + 200g vegetables",
+          "grams": "cottage cheese 200g, toast 70g, vegetables 200g",
+          "alternatives": ["2 whole eggs + 3 egg whites + 45g oats + 200ml skim milk"],
+          "calories": 365,
+          "protein": 33,
+          "carbs": 35,
+          "fat": 8
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "170g light Greek yogurt + 15g almonds + 100g apple",
-          "grams": "yogurt 170g, almonds 15g, apple 100g",
-          "alternatives": ["Greek yogurt 170g + walnuts 15g + apple 100g", "Greek yogurt 170g + pistachios 15g + apple 100g"],
-          "calories": 220,
-          "protein": 20,
-          "carbs": 25,
-          "fat": 8
+          "ingredients": "170g light Greek yogurt + 15g pistachios",
+          "grams": "yogurt 170g, pistachios 15g",
+          "alternatives": ["170g light Greek yogurt + 15g almonds", "170g light Greek yogurt + 15g walnuts"],
+          "calories": 185,
+          "protein": 18,
+          "carbs": 10,
+          "fat": 9
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "160g grilled chicken breast + 160g cooked white rice + 300g salad + 5g olive oil",
-          "grams": "chicken 160g, rice 160g, salad 300g, oil 5g",
-          "alternatives": ["Grilled white fish 170g + cooked white rice 160g + salad", "Lean beef 160g + cooked white rice 160g + salad"],
+          "ingredients": "150g grilled chicken breast + 170g cooked pasta + 300g salad + 5g olive oil",
+          "grams": "chicken 150g, pasta 170g, salad 300g, oil 5g",
+          "alternatives": ["150g grilled chicken breast + 160g cooked rice + 300g salad", "150g lean beef + 170g cooked pasta + 300g salad"],
           "calories": 440,
-          "protein": 42,
-          "carbs": 48,
+          "protein": 36,
+          "carbs": 49,
           "fat": 10
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "100g banana + 40g rice cakes + 100g light Greek yogurt",
-          "grams": "banana 100g, rice cakes 40g, yogurt 100g",
-          "alternatives": ["Banana 100g + whole wheat toast 40g + yogurt 100g", "Apple 150g + rice cakes 40g + yogurt 100g"],
-          "calories": 220,
-          "protein": 12,
-          "carbs": 42,
-          "fat": 1
+          "ingredients": "100g banana + 20g rice cakes",
+          "grams": "banana 100g, rice cakes 20g",
+          "alternatives": ["100g banana + 40g whole wheat toast", "150g apple + 20g rice cakes"],
+          "calories": 165,
+          "protein": 2,
+          "carbs": 40,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "130g grilled white fish + 100g cooked white rice",
-          "grams": "fish 130g, rice 100g",
-          "alternatives": ["Grilled chicken breast 120g + cooked white rice 100g", "Lean beef 120g + cooked white rice 100g"],
-          "calories": 245,
-          "protein": 32,
-          "carbs": 28,
+          "ingredients": "150g grilled white fish + 80g cooked rice",
+          "grams": "fish 150g, rice 80g",
+          "alternatives": ["130g grilled chicken breast + 80g cooked rice", "120g tuna + 80g cooked rice"],
+          "calories": 240,
+          "protein": 30,
+          "carbs": 22,
           "fat": 3
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "2 whole eggs + 120g egg whites + 250g salad + 10g peanuts",
-          "grams": "whole eggs 2, egg whites 120g, salad 250g, peanuts 10g",
-          "alternatives": ["180g cottage cheese + salad 250g", "170g grilled white fish + salad 250g"],
-          "calories": 220,
-          "protein": 23,
-          "carbs": 9,
-          "fat": 11
+          "ingredients": "120g tuna (drained) + 250g salad + 10g almonds",
+          "grams": "tuna 120g, salad 250g, almonds 10g",
+          "alternatives": ["2 whole eggs + 3 egg whites + 250g salad", "180g cottage cheese + 250g salad"],
+          "calories": 185,
+          "protein": 20,
+          "carbs": 7,
+          "fat": 10
         }
       ]
     },
@@ -308,68 +308,68 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "2 whole eggs (100g) + 3 egg whites (100g) + 50g oats + 200ml skim milk + 200g mixed vegetables",
-          "grams": "whole eggs 100g, egg whites 100g, oats 50g, milk 200ml, veg 200g",
-          "alternatives": ["Cottage cheese 200g + whole wheat toast 40g + mixed vegetables 200g"],
-          "calories": 420,
-          "protein": 36,
-          "carbs": 43,
+          "ingredients": "2 whole eggs + 3 egg whites + 40g oats + 200ml skim milk + 200g vegetables",
+          "grams": "whole eggs 2, egg whites 3, oats 40g, milk 200ml, vegetables 200g",
+          "alternatives": ["200g cottage cheese + 70g whole wheat toast + 200g vegetables"],
+          "calories": 385,
+          "protein": 34,
+          "carbs": 33,
           "fat": 12
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "170g light Greek yogurt + 15g walnuts + 100g berries",
-          "grams": "yogurt 170g, walnuts 15g, berries 100g",
-          "alternatives": ["Greek yogurt 170g + almonds 15g + berries 100g", "Greek yogurt 170g + pistachios 15g + berries 100g"],
-          "calories": 210,
+          "ingredients": "170g light Greek yogurt + 10g almonds",
+          "grams": "yogurt 170g, almonds 10g",
+          "alternatives": ["170g light Greek yogurt + 10g walnuts", "170g light Greek yogurt + 10g pistachios"],
+          "calories": 160,
           "protein": 19,
-          "carbs": 22,
-          "fat": 10
+          "carbs": 9,
+          "fat": 6
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "160g grilled turkey breast + 160g cooked white rice + 300g salad + 5g olive oil",
-          "grams": "turkey breast 160g, rice 160g, salad 300g, oil 5g",
-          "alternatives": ["Grilled chicken breast 160g + cooked white rice 160g + salad", "Grilled white fish 170g + cooked white rice 160g + salad"],
-          "calories": 430,
-          "protein": 42,
-          "carbs": 48,
+          "ingredients": "180g grilled white fish + 150g cooked rice + 300g salad + 5g olive oil",
+          "grams": "fish 180g, rice 150g, salad 300g, oil 5g",
+          "alternatives": ["150g grilled chicken breast + 150g cooked rice + 300g salad", "180g shrimp + 150g cooked rice + 300g salad"],
+          "calories": 400,
+          "protein": 38,
+          "carbs": 41,
           "fat": 9
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "100g banana + 40g whole wheat toast + 100g light Greek yogurt",
-          "grams": "banana 100g, toast 40g, yogurt 100g",
-          "alternatives": ["Banana 100g + rice cakes 40g + yogurt 100g", "Apple 150g + whole wheat toast 40g + yogurt 100g"],
-          "calories": 220,
-          "protein": 13,
-          "carbs": 42,
-          "fat": 2
+          "ingredients": "100g banana + 35g whole wheat toast",
+          "grams": "banana 100g, toast 35g",
+          "alternatives": ["100g banana + 20g rice cakes", "150g apple + 35g whole wheat toast"],
+          "calories": 165,
+          "protein": 4,
+          "carbs": 35,
+          "fat": 1
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "120g grilled chicken breast + 80g cooked white rice",
-          "grams": "chicken 120g, rice 80g",
-          "alternatives": ["Grilled white fish 130g + cooked white rice 80g", "Lean beef 120g + cooked white rice 80g"],
-          "calories": 235,
-          "protein": 30,
+          "ingredients": "130g grilled chicken breast + 80g cooked rice",
+          "grams": "chicken 130g, rice 80g",
+          "alternatives": ["150g grilled white fish + 80g cooked rice", "120g tuna + 80g cooked rice"],
+          "calories": 250,
+          "protein": 34,
           "carbs": 22,
           "fat": 3
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "200g cottage cheese + 250g salad + 10g peanuts",
-          "grams": "cottage cheese 200g, salad 250g, peanuts 10g",
-          "alternatives": ["2 whole eggs + 120g egg whites + salad 250g", "170g grilled white fish + salad 250g"],
-          "calories": 180,
-          "protein": 19,
-          "carbs": 8,
-          "fat": 9
+          "ingredients": "180g cottage cheese + 250g salad + 5g almonds",
+          "grams": "cottage cheese 180g, salad 250g, almonds 5g",
+          "alternatives": ["2 whole eggs + 3 egg whites + 250g salad", "170g grilled white fish + 250g salad"],
+          "calories": 185,
+          "protein": 20,
+          "carbs": 9,
+          "fat": 8
         }
       ]
     },
@@ -379,68 +379,68 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "200g cottage cheese + 40g whole wheat toast + 2 whole eggs (100g) + 200g mixed vegetables",
-          "grams": "cottage cheese 200g, toast 40g, whole eggs 100g, veg 200g",
-          "alternatives": ["2 whole eggs + 3 egg whites + 50g oats + 200ml skim milk"],
-          "calories": 390,
-          "protein": 36,
-          "carbs": 35,
-          "fat": 13
+          "ingredients": "200g cottage cheese + 60g whole wheat toast + 200g vegetables",
+          "grams": "cottage cheese 200g, toast 60g, vegetables 200g",
+          "alternatives": ["2 whole eggs + 3 egg whites + 45g oats + 200ml skim milk"],
+          "calories": 340,
+          "protein": 33,
+          "carbs": 31,
+          "fat": 8
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "170g light Greek yogurt + 15g almonds + 100g apple",
-          "grams": "yogurt 170g, almonds 15g, apple 100g",
-          "alternatives": ["Greek yogurt 170g + walnuts 15g + apple 100g", "Greek yogurt 170g + pistachios 15g + apple 100g"],
-          "calories": 220,
-          "protein": 20,
-          "carbs": 25,
+          "ingredients": "170g light Greek yogurt + 10g walnuts",
+          "grams": "yogurt 170g, walnuts 10g",
+          "alternatives": ["170g light Greek yogurt + 10g almonds", "170g light Greek yogurt + 10g pistachios"],
+          "calories": 170,
+          "protein": 18,
+          "carbs": 10,
           "fat": 8
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "160g grilled chicken breast + 160g cooked white rice + 300g salad + 5g olive oil",
-          "grams": "chicken 160g, rice 160g, salad 300g, oil 5g",
-          "alternatives": ["Grilled white fish 170g + cooked white rice 160g + salad", "Lean beef 160g + cooked white rice 160g + salad"],
-          "calories": 440,
-          "protein": 42,
-          "carbs": 48,
-          "fat": 10
+          "ingredients": "150g lean beef + 180g boiled potatoes + 300g salad + 5g olive oil",
+          "grams": "lean beef 150g, potatoes 180g, salad 300g, oil 5g",
+          "alternatives": ["150g grilled chicken breast + 180g boiled potatoes + 300g salad", "180g grilled white fish + 180g boiled potatoes + 300g salad"],
+          "calories": 405,
+          "protein": 35,
+          "carbs": 39,
+          "fat": 13
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "100g banana + 40g rice cakes + 100g light Greek yogurt",
-          "grams": "banana 100g, rice cakes 40g, yogurt 100g",
-          "alternatives": ["Banana 100g + whole wheat toast 40g + yogurt 100g", "Apple 150g + rice cakes 40g + yogurt 100g"],
-          "calories": 220,
-          "protein": 12,
-          "carbs": 42,
-          "fat": 1
+          "ingredients": "100g banana + 20g rice cakes",
+          "grams": "banana 100g, rice cakes 20g",
+          "alternatives": ["100g banana + 40g whole wheat toast", "150g apple + 20g rice cakes"],
+          "calories": 165,
+          "protein": 2,
+          "carbs": 40,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "130g grilled lean beef + 80g cooked white rice",
-          "grams": "lean beef 130g, rice 80g",
-          "alternatives": ["Grilled chicken breast 120g + cooked white rice 80g", "Grilled white fish 130g + cooked white rice 80g"],
-          "calories": 260,
-          "protein": 32,
+          "ingredients": "120g tuna + 80g cooked rice",
+          "grams": "tuna 120g, rice 80g",
+          "alternatives": ["130g grilled chicken breast + 80g cooked rice", "150g grilled white fish + 80g cooked rice"],
+          "calories": 230,
+          "protein": 31,
           "carbs": 22,
-          "fat": 6
+          "fat": 2
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "150g egg whites + 1 whole egg + 250g salad + 10g peanuts",
-          "grams": "egg whites 150g, whole egg 1, salad 250g, peanuts 10g",
-          "alternatives": ["180g cottage cheese + salad 250g", "170g grilled white fish + salad 250g"],
-          "calories": 180,
-          "protein": 18,
+          "ingredients": "2 whole eggs + 3 egg whites + 250g salad",
+          "grams": "whole eggs 2, egg whites 3, salad 250g",
+          "alternatives": ["180g cottage cheese + 250g salad", "170g grilled white fish + 250g salad"],
+          "calories": 220,
+          "protein": 20,
           "carbs": 8,
-          "fat": 8
+          "fat": 15
         }
       ]
     },
@@ -450,68 +450,68 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "50g oats + 200ml skim milk + 3 egg whites (100g) + 2 whole eggs (100g) + 200g mixed vegetables",
-          "grams": "oats 50g, milk 200ml, egg whites 100g, whole eggs 100g, veg 200g",
-          "alternatives": ["Cottage cheese 200g + whole wheat toast 40g + mixed vegetables 200g"],
-          "calories": 420,
-          "protein": 36,
-          "carbs": 43,
+          "ingredients": "2 whole eggs (100g) + 3 egg whites (100g) + 40g oats + 200ml skim milk + 200g vegetables",
+          "grams": "whole eggs 100g, egg whites 100g, oats 40g, milk 200ml, vegetables 200g",
+          "alternatives": ["200g cottage cheese + 70g whole wheat toast + 200g vegetables"],
+          "calories": 385,
+          "protein": 34,
+          "carbs": 33,
           "fat": 12
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "170g light Greek yogurt + 15g almonds + 100g banana",
-          "grams": "yogurt 170g, almonds 15g, banana 100g",
-          "alternatives": ["Greek yogurt 170g + walnuts 15g + banana 100g", "Greek yogurt 170g + pistachios 15g + banana 100g"],
-          "calories": 230,
-          "protein": 20,
-          "carbs": 28,
+          "ingredients": "170g light Greek yogurt + 15g peanuts",
+          "grams": "yogurt 170g, peanuts 15g",
+          "alternatives": ["170g light Greek yogurt + 15g almonds", "170g light Greek yogurt + 15g walnuts"],
+          "calories": 180,
+          "protein": 19,
+          "carbs": 10,
           "fat": 8
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "160g grilled chicken breast + 160g cooked white rice + 300g salad + 5g olive oil",
-          "grams": "chicken 160g, rice 160g, salad 300g, oil 5g",
-          "alternatives": ["Grilled white fish 170g + cooked white rice 160g + salad", "Lean beef 160g + cooked white rice 160g + salad"],
-          "calories": 440,
-          "protein": 42,
-          "carbs": 48,
-          "fat": 10
+          "ingredients": "180g cooked shrimp (or 180g grilled white fish) + 170g cooked rice + 300g salad + 5g olive oil",
+          "grams": "shrimp or fish 180g, rice 170g, salad 300g, oil 5g",
+          "alternatives": ["150g grilled chicken breast + 170g cooked rice + 300g salad", "150g lean beef + 170g cooked rice + 300g salad"],
+          "calories": 430,
+          "protein": 40,
+          "carbs": 46,
+          "fat": 8
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "40g whole wheat toast + 100g banana + 100g light Greek yogurt",
-          "grams": "toast 40g, banana 100g, yogurt 100g",
-          "alternatives": ["Banana 100g + whole wheat toast 40g + yogurt 100g", "Apple 150g + whole wheat toast 40g + yogurt 100g"],
-          "calories": 210,
-          "protein": 12,
-          "carbs": 40,
-          "fat": 2
+          "ingredients": "100g banana + 40g whole wheat toast",
+          "grams": "banana 100g, toast 40g",
+          "alternatives": ["100g banana + 20g rice cakes", "150g apple + 40g whole wheat toast"],
+          "calories": 175,
+          "protein": 4,
+          "carbs": 37,
+          "fat": 1
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "130g grilled white fish + 100g cooked white rice",
-          "grams": "fish 130g, rice 100g",
-          "alternatives": ["Grilled chicken breast 120g + cooked white rice 100g", "Lean beef 120g + cooked white rice 100g"],
-          "calories": 245,
-          "protein": 32,
-          "carbs": 28,
+          "ingredients": "130g grilled chicken breast + 90g cooked rice",
+          "grams": "chicken 130g, rice 90g",
+          "alternatives": ["150g grilled white fish + 80g cooked rice", "120g tuna + 80g cooked rice"],
+          "calories": 265,
+          "protein": 34,
+          "carbs": 25,
           "fat": 3
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "200g cottage cheese + 250g salad + 10g peanuts",
-          "grams": "cottage cheese 200g, salad 250g, peanuts 10g",
-          "alternatives": ["2 whole eggs + 120g egg whites + salad 250g", "170g grilled white fish + salad 250g"],
-          "calories": 180,
-          "protein": 19,
-          "carbs": 8,
-          "fat": 9
+          "ingredients": "180g cottage cheese + 250g mixed vegetables + 8g almonds",
+          "grams": "cottage cheese 180g, vegetables 250g, almonds 8g",
+          "alternatives": ["2 whole eggs + 3 egg whites + 250g mixed vegetables", "170g grilled white fish + 250g mixed vegetables"],
+          "calories": 210,
+          "protein": 20,
+          "carbs": 9,
+          "fat": 11
         }
       ]
     }
@@ -520,11 +520,11 @@
     "protein": [
       {
         "source": "Chicken 150g",
-        "alternatives": ["White fish 200g", "Lean red meat 150g", "Shrimp 200g", "Tuna 120-130g"]
+        "alternatives": ["White fish 180g", "Lean red meat 150g", "Shrimp 180g", "Tuna 120g"]
       },
       {
         "source": "Cottage cheese 180-200g",
-        "alternatives": ["Greek yogurt 250g", "Eggs 2 whole + 3 whites", "Tuna 120g"]
+        "alternatives": ["Greek yogurt 170g", "Eggs 2 whole + 3 whites", "Tuna 120g"]
       },
       {
         "source": "Whey 30g",
@@ -537,25 +537,20 @@
         "alternatives": ["Apple 150g", "Orange 180g", "Dates 25g", "Grapes 120g"]
       },
       {
-        "source": "Brown toast 50g (pre-workout carbs)",
-        "alternatives": ["Rice cakes 20g", "Oats 30g", "Boiled potatoes 150g", "Cooked rice 80g"]
+        "source": "Whole wheat toast 40g (pre-workout carbs)",
+        "alternatives": ["Rice cakes 20g", "Oats 45g", "Boiled potatoes 180g", "Cooked rice 80g"]
       },
       {
-        "source": "Cooked rice 180g",
-        "alternatives": ["Boiled potatoes 300g", "Boiled pasta 180g"]
+        "source": "Cooked rice 150-170g",
+        "alternatives": ["Boiled potatoes 220g", "Boiled pasta 170g"]
       }
     ],
     "fats": [
       { "source": "Olive oil", "amount": "5g" },
-      { "source": "Almonds (snack)", "amount": "15g" },
-      { "source": "Walnuts (snack)", "amount": "15g" },
-      { "source": "Pistachios (snack)", "amount": "15g" },
-      { "source": "Peanuts (snack)", "amount": "18g" },
-      { "source": "Cashews (snack)", "amount": "15g" },
-      { "source": "Roasted chickpeas (snack)", "amount": "25g" },
-      { "source": "Almonds (fat add)", "amount": "8g" },
-      { "source": "Walnuts (fat add)", "amount": "8g" },
-      { "source": "Peanuts (fat add)", "amount": "10g" },
+      { "source": "Almonds", "amount": "10-15g" },
+      { "source": "Walnuts", "amount": "10-15g" },
+      { "source": "Pistachios", "amount": "10-15g" },
+      { "source": "Peanuts", "amount": "15g" },
       { "source": "Avocado", "amount": "35g" }
     ]
   }
