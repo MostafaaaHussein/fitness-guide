@@ -3,18 +3,18 @@
   "phase": "Cutting",
   "goals": {
     "calories": 2400,
-    "protein": "220-235",
-    "carbs": "205-215",
-    "fat": "63-66",
+    "protein": "250-265",
+    "carbs": "210-230",
+    "fat": "55-59",
     "water": "3-4 L/day",
     "training": "5 training days + 2 rest days"
   },
   "notes": [
     "Meat, chicken, fish, rice, pasta, and potatoes are weighed after cooking.",
     "Vegetables and salads are weighed raw.",
-    "Black coffee or tea allowed without sugar (zero-calorie sweetener OK).",
-    "Post-workout protein priority: whole-food animal protein (chicken/fish/beef) over whey.",
-    "Follow progressive overload with proper exercise technique."
+    "Drink 3-4 liters of water daily.",
+    "Black coffee or tea without sugar is allowed.",
+    "Post-workout protein should prioritize whole foods (chicken, fish, or lean beef) instead of whey whenever possible."
   ],
   "days": [
     {
@@ -24,8 +24,8 @@
           "id": "breakfast",
           "name": "Breakfast",
           "ingredients": "5 Egg Whites + 2 Whole Eggs + 80g Oats + 300ml Skim Milk + 200g Mixed Vegetables",
-          "calories": 640,
-          "protein": 59,
+          "calories": 635,
+          "protein": 57,
           "carbs": 60,
           "fat": 16
         },
@@ -33,8 +33,8 @@
           "id": "snack",
           "name": "Snack",
           "ingredients": "250g Light Greek Yogurt + 20g Almonds",
-          "calories": 260,
-          "protein": 28,
+          "calories": 255,
+          "protein": 29,
           "carbs": 12,
           "fat": 11
         },
@@ -42,37 +42,37 @@
           "id": "lunch",
           "name": "Lunch",
           "ingredients": "220g Grilled Chicken Breast + 220g Cooked White Rice + 10g Olive Oil + 300g Salad",
-          "calories": 680,
-          "protein": 74,
+          "calories": 665,
+          "protein": 73,
           "carbs": 63,
-          "fat": 17
+          "fat": 16
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "150g Banana + 30g Rice Cakes",
-          "calories": 210,
+          "ingredients": "150g Banana + 20g Rice Cakes",
+          "calories": 195,
           "protein": 2,
-          "carbs": 50,
+          "carbs": 44,
           "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "220g Grilled Chicken Breast + 150g Cooked White Rice",
-          "calories": 540,
-          "protein": 72,
-          "carbs": 42,
-          "fat": 8
+          "ingredients": "220g Grilled Chicken Breast + 120g Cooked White Rice",
+          "calories": 445,
+          "protein": 69,
+          "carbs": 34,
+          "fat": 7
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "250g Cottage Cheese + 300g Salad + 20g Peanuts",
-          "calories": 470,
-          "protein": 43,
-          "carbs": 18,
-          "fat": 16
+          "ingredients": "250g Cottage Cheese + 300g Salad",
+          "calories": 195,
+          "protein": 35,
+          "carbs": 10,
+          "fat": 8
         }
       ]
     },
@@ -82,56 +82,56 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "250g Cottage Cheese + 120g Whole Wheat Bread + 200g Mixed Vegetables",
-          "calories": 615,
-          "protein": 49,
-          "carbs": 62,
-          "fat": 14
+          "ingredients": "250g Cottage Cheese + 80g Oats + 300ml Skim Milk + 200g Mixed Vegetables",
+          "calories": 620,
+          "protein": 56,
+          "carbs": 63,
+          "fat": 13
         },
         {
           "id": "snack",
           "name": "Snack",
           "ingredients": "250g Light Greek Yogurt + 20g Walnuts",
-          "calories": 285,
+          "calories": 270,
           "protein": 28,
           "carbs": 12,
-          "fat": 14
+          "fat": 13
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "280g Grilled White Fish + 350g Boiled Potatoes + 300g Mixed Salad + 10g Olive Oil",
-          "calories": 690,
-          "protein": 67,
-          "carbs": 70,
+          "ingredients": "220g Grilled White Fish + 250g Boiled Potatoes + 10g Olive Oil + 300g Salad",
+          "calories": 620,
+          "protein": 60,
+          "carbs": 55,
           "fat": 15
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "150g Banana + 60g Whole Wheat Bread",
-          "calories": 250,
-          "protein": 7,
-          "carbs": 53,
-          "fat": 2
+          "ingredients": "150g Banana + 20g Rice Cakes",
+          "calories": 195,
+          "protein": 2,
+          "carbs": 44,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
           "ingredients": "220g Grilled Chicken Breast + 150g Cooked White Rice",
-          "calories": 500,
-          "protein": 73,
+          "calories": 485,
+          "protein": 70,
           "carbs": 42,
-          "fat": 6
+          "fat": 7
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "5 Egg Whites + 2 Whole Eggs + 300g Mixed Salad",
-          "calories": 285,
-          "protein": 38,
+          "ingredients": "250g Cottage Cheese + 300g Salad",
+          "calories": 190,
+          "protein": 35,
           "carbs": 10,
-          "fat": 14
+          "fat": 7
         }
       ]
     },
@@ -141,56 +141,56 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "5 Egg Whites + 2 Whole Eggs + 90g Oats + 300ml Skim Milk",
-          "calories": 630,
-          "protein": 56,
-          "carbs": 67,
+          "ingredients": "5 Egg Whites + 2 Whole Eggs + 80g Oats + 300ml Skim Milk",
+          "calories": 620,
+          "protein": 57,
+          "carbs": 60,
           "fat": 16
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "250g Light Greek Yogurt + 20g Peanuts",
-          "calories": 295,
+          "ingredients": "250g Light Greek Yogurt + 20g Almonds",
+          "calories": 255,
           "protein": 29,
-          "carbs": 14,
-          "fat": 13
+          "carbs": 12,
+          "fat": 11
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "220g Lean Beef + 250g Cooked White Rice + 300g Mixed Salad + 10g Olive Oil",
-          "calories": 715,
-          "protein": 61,
-          "carbs": 77,
-          "fat": 20
+          "ingredients": "220g Lean Beef + 220g Cooked White Rice + 300g Salad",
+          "calories": 675,
+          "protein": 65,
+          "carbs": 63,
+          "fat": 18
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "150g Banana + 30g Rice Cakes",
-          "calories": 240,
-          "protein": 3,
-          "carbs": 56,
-          "fat": 1
+          "ingredients": "150g Banana + 20g Rice Cakes",
+          "calories": 195,
+          "protein": 2,
+          "carbs": 44,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "220g Grilled Chicken Breast + 150g Cooked White Rice",
-          "calories": 500,
-          "protein": 73,
-          "carbs": 42,
-          "fat": 6
+          "ingredients": "220g Grilled Chicken Breast + 120g Cooked White Rice",
+          "calories": 445,
+          "protein": 69,
+          "carbs": 34,
+          "fat": 7
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "250g Cottage Cheese + 300g Mixed Salad",
-          "calories": 230,
-          "protein": 42,
+          "ingredients": "250g Cottage Cheese + 300g Salad",
+          "calories": 190,
+          "protein": 35,
           "carbs": 10,
-          "fat": 4
+          "fat": 7
         }
       ]
     },
@@ -200,56 +200,56 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "250g Cottage Cheese + 120g Whole Wheat Bread + 200g Mixed Vegetables",
-          "calories": 615,
-          "protein": 49,
-          "carbs": 62,
-          "fat": 14
+          "ingredients": "250g Cottage Cheese + 80g Whole Wheat Bread + 2 Whole Eggs + Vegetables",
+          "calories": 610,
+          "protein": 54,
+          "carbs": 52,
+          "fat": 17
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "250g Light Greek Yogurt + 20g Pistachios",
-          "calories": 295,
-          "protein": 28,
-          "carbs": 13,
-          "fat": 15
+          "ingredients": "250g Light Greek Yogurt + 20g Almonds",
+          "calories": 255,
+          "protein": 29,
+          "carbs": 12,
+          "fat": 11
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "250g Grilled Chicken Breast + 220g Cooked Pasta + 300g Mixed Salad + 10g Olive Oil",
-          "calories": 720,
-          "protein": 74,
-          "carbs": 72,
-          "fat": 15
+          "ingredients": "220g Grilled Chicken Breast + 220g Cooked White Rice + 10g Olive Oil + Salad",
+          "calories": 665,
+          "protein": 73,
+          "carbs": 63,
+          "fat": 16
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "150g Banana + 60g Whole Wheat Bread",
-          "calories": 250,
-          "protein": 7,
-          "carbs": 53,
-          "fat": 2
+          "ingredients": "150g Banana + 20g Rice Cakes",
+          "calories": 195,
+          "protein": 2,
+          "carbs": 44,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "250g Grilled White Fish + 150g Cooked White Rice",
-          "calories": 510,
-          "protein": 65,
+          "ingredients": "220g Grilled White Fish + 150g Cooked White Rice",
+          "calories": 470,
+          "protein": 60,
           "carbs": 42,
           "fat": 6
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "200g Canned Tuna (drained) + 300g Mixed Salad",
-          "calories": 225,
-          "protein": 44,
-          "carbs": 8,
-          "fat": 5
+          "ingredients": "250g Cottage Cheese + Salad",
+          "calories": 190,
+          "protein": 35,
+          "carbs": 10,
+          "fat": 7
         }
       ]
     },
@@ -259,56 +259,56 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "5 Egg Whites + 2 Whole Eggs + 90g Oats + 300ml Skim Milk",
-          "calories": 630,
-          "protein": 56,
-          "carbs": 67,
+          "ingredients": "5 Egg Whites + 2 Whole Eggs + 80g Oats + 300ml Skim Milk + 200g Mixed Vegetables",
+          "calories": 635,
+          "protein": 57,
+          "carbs": 60,
           "fat": 16
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "250g Light Greek Yogurt + 20g Almonds",
-          "calories": 285,
+          "ingredients": "250g Light Greek Yogurt + 20g Walnuts",
+          "calories": 270,
           "protein": 28,
           "carbs": 12,
-          "fat": 14
+          "fat": 13
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "280g Grilled White Fish + 250g Cooked White Rice + 300g Mixed Salad + 10g Olive Oil",
-          "calories": 690,
-          "protein": 68,
-          "carbs": 72,
-          "fat": 14
+          "ingredients": "220g Grilled Turkey Breast + 220g Cooked White Rice + 10g Olive Oil + 300g Salad",
+          "calories": 660,
+          "protein": 70,
+          "carbs": 63,
+          "fat": 15
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "150g Banana + 30g Rice Cakes",
-          "calories": 240,
-          "protein": 3,
-          "carbs": 56,
-          "fat": 1
+          "ingredients": "150g Banana + 20g Rice Cakes",
+          "calories": 195,
+          "protein": 2,
+          "carbs": 44,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "220g Grilled Chicken Breast + 150g Cooked White Rice",
-          "calories": 500,
-          "protein": 73,
-          "carbs": 42,
-          "fat": 6
+          "ingredients": "220g Grilled Chicken Breast + 120g Cooked White Rice",
+          "calories": 445,
+          "protein": 69,
+          "carbs": 34,
+          "fat": 7
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "250g Cottage Cheese + 300g Mixed Salad",
-          "calories": 230,
-          "protein": 42,
+          "ingredients": "250g Cottage Cheese + 300g Salad",
+          "calories": 190,
+          "protein": 35,
           "carbs": 10,
-          "fat": 4
+          "fat": 7
         }
       ]
     },
@@ -318,56 +318,56 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "250g Cottage Cheese + 120g Whole Wheat Bread + 200g Mixed Vegetables",
-          "calories": 615,
-          "protein": 49,
-          "carbs": 62,
-          "fat": 14
+          "ingredients": "250g Cottage Cheese + 80g Oats + 300ml Skim Milk + 200g Mixed Vegetables",
+          "calories": 620,
+          "protein": 56,
+          "carbs": 63,
+          "fat": 13
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "250g Light Greek Yogurt + 20g Walnuts",
-          "calories": 285,
-          "protein": 28,
+          "ingredients": "250g Light Greek Yogurt + 20g Almonds",
+          "calories": 255,
+          "protein": 29,
           "carbs": 12,
-          "fat": 14
+          "fat": 11
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "220g Lean Beef + 350g Boiled Potatoes + 300g Mixed Salad + 10g Olive Oil",
-          "calories": 705,
-          "protein": 62,
-          "carbs": 68,
-          "fat": 20
+          "ingredients": "220g Grilled Chicken Breast + 250g Boiled Potatoes + 10g Olive Oil + 300g Salad",
+          "calories": 640,
+          "protein": 72,
+          "carbs": 50,
+          "fat": 16
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "150g Banana + 60g Whole Wheat Bread",
-          "calories": 250,
-          "protein": 7,
-          "carbs": 53,
-          "fat": 2
+          "ingredients": "150g Banana + 20g Rice Cakes",
+          "calories": 195,
+          "protein": 2,
+          "carbs": 44,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
-          "ingredients": "220g Canned Tuna (drained) + 150g Cooked White Rice",
-          "calories": 495,
+          "ingredients": "220g Lean Beef + 120g Cooked White Rice",
+          "calories": 470,
           "protein": 60,
-          "carbs": 42,
-          "fat": 5
+          "carbs": 34,
+          "fat": 10
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "5 Egg Whites + 2 Whole Eggs + 300g Mixed Salad",
-          "calories": 285,
-          "protein": 38,
+          "ingredients": "250g Cottage Cheese + 300g Salad",
+          "calories": 190,
+          "protein": 35,
           "carbs": 10,
-          "fat": 14
+          "fat": 7
         }
       ]
     },
@@ -377,56 +377,56 @@
         {
           "id": "breakfast",
           "name": "Breakfast",
-          "ingredients": "5 Egg Whites + 2 Whole Eggs + 90g Oats + 300ml Skim Milk",
-          "calories": 630,
-          "protein": 56,
-          "carbs": 67,
+          "ingredients": "5 Egg Whites + 2 Whole Eggs + 80g Oats + 300ml Skim Milk + 200g Mixed Vegetables",
+          "calories": 635,
+          "protein": 57,
+          "carbs": 60,
           "fat": 16
         },
         {
           "id": "snack",
           "name": "Snack",
-          "ingredients": "250g Light Greek Yogurt + 20g Mixed Nuts",
-          "calories": 290,
-          "protein": 28,
-          "carbs": 13,
-          "fat": 14
+          "ingredients": "250g Light Greek Yogurt + 20g Almonds",
+          "calories": 255,
+          "protein": 29,
+          "carbs": 12,
+          "fat": 11
         },
         {
           "id": "lunch",
           "name": "Lunch",
-          "ingredients": "250g Grilled Shrimp (or 300g Grilled White Fish) + 250g Cooked White Rice + 300g Mixed Salad + 10g Olive Oil",
-          "calories": 690,
-          "protein": 66,
-          "carbs": 72,
-          "fat": 14
+          "ingredients": "220g Grilled White Fish + 220g Cooked White Rice + 10g Olive Oil + 300g Salad",
+          "calories": 630,
+          "protein": 62,
+          "carbs": 63,
+          "fat": 15
         },
         {
           "id": "preWorkout",
           "name": "Pre-Workout",
-          "ingredients": "150g Banana + 30g Rice Cakes",
-          "calories": 240,
-          "protein": 3,
-          "carbs": 56,
-          "fat": 1
+          "ingredients": "150g Banana + 20g Rice Cakes",
+          "calories": 195,
+          "protein": 2,
+          "carbs": 44,
+          "fat": 0
         },
         {
           "id": "postWorkout",
           "name": "Post-Workout",
           "ingredients": "220g Grilled Chicken Breast + 150g Cooked White Rice",
-          "calories": 500,
-          "protein": 73,
+          "calories": 485,
+          "protein": 70,
           "carbs": 42,
-          "fat": 6
+          "fat": 7
         },
         {
           "id": "dinner",
           "name": "Dinner",
-          "ingredients": "250g Cottage Cheese + 300g Mixed Salad",
-          "calories": 230,
-          "protein": 42,
+          "ingredients": "250g Cottage Cheese + 300g Salad",
+          "calories": 190,
+          "protein": 35,
           "carbs": 10,
-          "fat": 4
+          "fat": 7
         }
       ]
     }
@@ -435,7 +435,7 @@
     "protein": [
       {
         "source": "Chicken breast 220g",
-        "alternatives": ["White fish 280g", "Lean beef 220g", "Shrimp 250g", "Tuna 200g"]
+        "alternatives": ["White fish 220g", "Lean beef 220g", "Turkey breast 220g", "Shrimp 250g", "Tuna 200g"]
       },
       {
         "source": "Cottage cheese 250g",
@@ -446,8 +446,12 @@
         "alternatives": ["Cottage cheese 250g", "Greek yogurt 250g"]
       },
       {
-        "source": "White fish 280g",
-        "alternatives": ["Chicken breast 220g", "Shrimp 250g", "Tuna 200g"]
+        "source": "White fish 220g",
+        "alternatives": ["Chicken breast 220g", "Turkey breast 220g", "Shrimp 250g", "Tuna 200g"]
+      },
+      {
+        "source": "Lean beef 220g",
+        "alternatives": ["Chicken breast 220g", "White fish 220g", "Turkey breast 220g"]
       }
     ],
     "carbs": [
@@ -456,16 +460,20 @@
         "alternatives": ["Apple 200g", "Orange 250g", "Dates 40g", "Grapes 150g"]
       },
       {
-        "source": "Rice cakes 30g (pre-workout carbs)",
-        "alternatives": ["Whole wheat bread 60g", "Oats 40g", "Boiled potatoes 250g"]
+        "source": "Rice cakes 20g (pre-workout carbs)",
+        "alternatives": ["Whole wheat bread 40g", "Oats 30g", "Boiled potatoes 150g"]
       },
       {
         "source": "Cooked white rice 220g",
-        "alternatives": ["Boiled potatoes 350g", "Cooked pasta 220g"]
+        "alternatives": ["Boiled potatoes 250g", "Cooked pasta 220g"]
       },
       {
-        "source": "Whole wheat bread 120g",
-        "alternatives": ["Oats 90g", "Cooked rice 220g", "Boiled potatoes 350g"]
+        "source": "Whole wheat bread 80g",
+        "alternatives": ["Oats 80g", "Cooked rice 220g", "Boiled potatoes 250g"]
+      },
+      {
+        "source": "Oats 80g",
+        "alternatives": ["Whole wheat bread 80g", "Cooked rice 220g", "Boiled potatoes 250g"]
       }
     ],
     "fats": [
