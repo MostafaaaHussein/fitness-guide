@@ -3,17 +3,17 @@
   "phase": "Cutting",
   "goals": {
     "calories": 2400,
-    "protein": 230,
-    "carbs": 210,
-    "fat": 65,
-    "water": "3–4 L/day",
+    "protein": "220-235",
+    "carbs": "205-215",
+    "fat": "63-66",
+    "water": "3-4 L/day",
     "training": "5 training days + 2 rest days"
   },
   "notes": [
     "Meat, chicken, fish, rice, pasta, and potatoes are weighed after cooking.",
     "Vegetables and salads are weighed raw.",
-    "Black coffee or tea without sugar is allowed. Zero-calorie sweeteners are allowed.",
-    "Post-workout protein priority: whole-food animal protein (chicken, fish, beef) over whey.",
+    "Black coffee or tea allowed without sugar (zero-calorie sweetener OK).",
+    "Post-workout protein priority: whole-food animal protein (chicken/fish/beef) over whey.",
     "Follow progressive overload with proper exercise technique."
   ],
   "days": [
@@ -430,10 +430,5 @@
         }
       ]
     }
-  ],
-  "substitutions": {
-    "protein": [],
-    "carbs": [],
-    "fats": []
-  }
+  ]
 }
