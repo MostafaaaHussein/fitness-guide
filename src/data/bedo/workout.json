@@ -141,6 +141,15 @@
           ],
           "sets": 3,
           "reps": "8-12"
+        },
+        {
+          "id": "pull-forearm-wrist-curl",
+          "muscle": "Forearms",
+          "options": [
+            { "name": "Dumbbell Single Arm Bench Wrist Curl", "slug": "wrist-flexor-curl-dumbbell-kneeling" }
+          ],
+          "sets": 2,
+          "reps": "12-15"
         }
       ]
     },
@@ -193,7 +202,12 @@
     },
     {
       "day": 4,
-      "focus": "Upper",
+      "focus": "Rest",
+      "exercises": []
+    },
+    {
+      "day": 5,
+      "focus": "Upper Body",
       "exercises": [
         {
           "id": "upper-chest-flat",
@@ -235,32 +249,12 @@
           ],
           "sets": 3,
           "reps": "8-12"
-        },
-        {
-          "id": "upper-lateral",
-          "muscle": "Shoulders",
-          "options": [
-            { "name": "Dumbbell Lateral Raise", "slug": "dumbbell-lateral-raise" }
-          ],
-          "sets": 3,
-          "reps": "8-12"
-        },
-        {
-          "id": "upper-arms",
-          "muscle": "Arms",
-          "options": [
-            { "name": "Cable Rope Pushdown", "slug": "cable-rope-pushdown" },
-            { "name": "Dumbbell Curl", "slug": "dumbbell-curl" }
-          ],
-          "sets": 3,
-          "reps": "8-12",
-          "notes": "Pick one arm finisher (triceps or biceps)"
         }
       ]
     },
     {
-      "day": 5,
-      "focus": "Shoulders & Arms",
+      "day": 6,
+      "focus": "Shoulder + Arms",
       "exercises": [
         {
           "id": "sa-lateral",
@@ -327,62 +321,15 @@
           ],
           "sets": 3,
           "reps": "8-12"
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "focus": "Lower",
-      "exercises": [
-        {
-          "id": "lower-leg-press",
-          "muscle": "Quads",
-          "options": [
-            { "name": "Machine Leg Press", "slug": "machine-leg-press" }
-          ],
-          "sets": 3,
-          "reps": "8-12"
         },
         {
-          "id": "lower-hamstring",
-          "muscle": "Hamstrings",
+          "id": "sa-forearm-reverse-grip-curl",
+          "muscle": "Forearms / Brachioradialis / Biceps assistance",
           "options": [
-            { "name": "Machine Hamstring Curl", "slug": "machine-hamstring-curl" },
-            { "name": "Machine Seated Hamstring Curl", "slug": "machine-seated-hamstring-curl" }
+            { "name": "Cable Bar Reverse Grip Curl", "slug": "cable-bar-reverse-grip-curl" }
           ],
-          "sets": 3,
-          "reps": "8-12"
-        },
-        {
-          "id": "lower-leg-extension",
-          "muscle": "Quads",
-          "options": [
-            { "name": "Machine Leg Extension", "slug": "machine-leg-extension" }
-          ],
-          "sets": 3,
-          "reps": "8-12"
-        },
-        {
-          "id": "lower-rdl",
-          "muscle": "Hamstrings",
-          "region": "Hip hinge",
-          "options": [
-            { "name": "Dumbbell Romanian Deadlift", "slug": "dumbbell-romanian-deadlift" },
-            { "name": "Barbell Romanian Deadlift", "slug": "barbell-romanian-deadlift" }
-          ],
-          "sets": 3,
-          "reps": "8-12",
-          "notes": "Optional hip-hinge pattern"
-        },
-        {
-          "id": "lower-calves",
-          "muscle": "Calves",
-          "options": [
-            { "name": "Machine Standing Calf Raises", "slug": "machine-standing-calf-raises" },
-            { "name": "Machine Seated Calf Raises", "slug": "machine-seated-calf-raises" }
-          ],
-          "sets": 3,
-          "reps": "10-15"
+          "sets": 2,
+          "reps": "12-15"
         }
       ]
     },

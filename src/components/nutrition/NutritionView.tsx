@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Check } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Progress } from "@/components/ui/progress";
@@ -10,7 +10,8 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ExportButtons } from "@/components/export/ExportButtons";
 import { useLocalStorage, storageKey } from "@/hooks/useLocalStorage";
 import { planDayIndex, todayKey } from "@/lib/helpers";
-import type { DayMealProgress, NutritionPlan, ProfileId } from "@/lib/types";
+import { getLocalizedNutritionPlan } from "@/lib/nutritionLocalization";
+import type { DayMealProgress, Locale, NutritionPlan, ProfileId } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 export function NutritionView({
@@ -20,9 +21,11 @@ export function NutritionView({
   profile: ProfileId;
   plan: NutritionPlan;
 }) {
+  const locale = useLocale() as Locale;
   const t = useTranslations("nutrition");
   const tc = useTranslations("common");
-  const defaultDay = plan.days[planDayIndex()]?.day ?? plan.days[0].day;
+  const localizedPlan = useMemo(() => getLocalizedNutritionPlan(plan, locale), [plan, locale]);
+  const defaultDay = localizedPlan.days[planDayIndex()]?.day ?? localizedPlan.days[0].day;
 
   const [activeDay, setActiveDay] = useLocalStorage(
     storageKey(profile, "activeNutritionDay"),
@@ -30,7 +33,7 @@ export function NutritionView({
   );
 
   const day =
-    plan.days.find((d) => d.day === activeDay) ?? plan.days[0];
+    localizedPlan.days.find((d) => d.day === activeDay) ?? localizedPlan.days[0];
 
   const [progress, setProgress] = useLocalStorage<DayMealProgress>(
     storageKey(profile, "meals", day.day),
@@ -71,17 +74,17 @@ export function NutritionView({
 
       <div className="rounded-2xl border border-border/60 bg-card/60 p-4 shadow-sm">
         <p className="mb-1 text-xs font-medium uppercase tracking-wide text-muted-foreground">
-          {t("goals")} · {t("phase")}: {plan.phase}
+          {t("goals")} · {t("phase")}: {localizedPlan.phase}
         </p>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {[
             {
               label: tc("calories"),
-              value: String(plan.goals.calories),
+              value: String(localizedPlan.goals.calories),
             },
-            { label: tc("protein"), value: `${plan.goals.protein}g` },
-            { label: tc("carbs"), value: `${plan.goals.carbs}g` },
-            { label: tc("fat"), value: `${plan.goals.fat}g` },
+            { label: tc("protein"), value: `${localizedPlan.goals.protein}g` },
+            { label: tc("carbs"), value: `${localizedPlan.goals.carbs}g` },
+            { label: tc("fat"), value: `${localizedPlan.goals.fat}g` },
           ].map((g) => (
             <div key={g.label}>
               <p className="text-lg font-semibold tabular-nums">{g.value}</p>
@@ -90,8 +93,8 @@ export function NutritionView({
           ))}
         </div>
         <p className="mt-3 text-xs text-muted-foreground">
-          {t("waterGoal")}: {plan.goals.water}
-          {plan.goals.training ? ` · ${t("training")}: ${plan.goals.training}` : ""}
+          {t("waterGoal")}: {localizedPlan.goals.water}
+          {localizedPlan.goals.training ? ` · ${t("training")}: ${localizedPlan.goals.training}` : ""}
         </p>
       </div>
 
@@ -103,7 +106,7 @@ export function NutritionView({
         className="print:hidden"
       >
         <TabsList className="flex h-auto w-full flex-wrap justify-start gap-1 bg-muted/50 p-1">
-          {plan.days.map((d) => (
+          {localizedPlan.days.map((d) => (
             <TabsTrigger
               key={d.day}
               value={d.day}
@@ -212,10 +215,10 @@ export function NutritionView({
         })}
       </ol>
 
-      {plan.notes && plan.notes.length > 0 && (
+      {localizedPlan.notes && localizedPlan.notes.length > 0 && (
         <div className="rounded-2xl border border-border/60 bg-muted/30 p-4">
           <ul className="space-y-1.5 text-sm text-muted-foreground">
-            {plan.notes.map((n) => (
+            {localizedPlan.notes.map((n) => (
               <li key={n}>· {n}</li>
             ))}
           </ul>
@@ -224,7 +227,7 @@ export function NutritionView({
 
       <section className="space-y-3">
         <h3 className="font-semibold">{t("substitutions")}</h3>
-        {Object.entries(plan.substitutions).map(([key, items]) => {
+        {Object.entries(localizedPlan.substitutions).map(([key, items]) => {
           if (!items || items.length === 0) return null;
           return (
             <div key={key} className="rounded-xl border border-border/50 p-3">

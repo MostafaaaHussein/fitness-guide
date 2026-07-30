@@ -75,15 +75,19 @@ export function RestTimer() {
         {mm}:{ss}
       </div>
 
+      <p className="mb-4 text-center text-sm text-muted-foreground">
+        {t("restTip")}
+      </p>
+
       <div className="flex flex-wrap items-center justify-center gap-2">
-        {[60, 90, 120].map((d) => (
+        {[180, 240, 300].map((d) => (
           <Button
             key={d}
             variant={running && seconds > 0 ? "outline" : "secondary"}
             size="sm"
             onClick={() => start(d)}
           >
-            {d}s
+            {Math.floor(d / 60)}m
           </Button>
         ))}
         {running && (
