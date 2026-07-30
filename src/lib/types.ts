@@ -69,9 +69,9 @@ export interface NutritionPlan {
   phase: string;
   goals: {
     calories: number | string;
-    protein: number;
-    carbs: number;
-    fat: number;
+    protein: number | string;
+    carbs: number | string;
+    fat: number | string;
     water: string;
     training?: string;
   };

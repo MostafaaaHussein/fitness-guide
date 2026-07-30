@@ -430,5 +430,52 @@
         }
       ]
     }
-  ]
+  ],
+  "substitutions": {
+    "protein": [
+      {
+        "source": "Chicken breast 220g",
+        "alternatives": ["White fish 280g", "Lean beef 220g", "Shrimp 250g", "Tuna 200g"]
+      },
+      {
+        "source": "Cottage cheese 250g",
+        "alternatives": ["Greek yogurt 250g", "Eggs 5 whites + 2 whole", "Tuna 200g"]
+      },
+      {
+        "source": "Eggs 5 whites + 2 whole",
+        "alternatives": ["Cottage cheese 250g", "Greek yogurt 250g"]
+      },
+      {
+        "source": "White fish 280g",
+        "alternatives": ["Chicken breast 220g", "Shrimp 250g", "Tuna 200g"]
+      }
+    ],
+    "carbs": [
+      {
+        "source": "Banana 150g (pre-workout fruit)",
+        "alternatives": ["Apple 200g", "Orange 250g", "Dates 40g", "Grapes 150g"]
+      },
+      {
+        "source": "Rice cakes 30g (pre-workout carbs)",
+        "alternatives": ["Whole wheat bread 60g", "Oats 40g", "Boiled potatoes 250g"]
+      },
+      {
+        "source": "Cooked white rice 220g",
+        "alternatives": ["Boiled potatoes 350g", "Cooked pasta 220g"]
+      },
+      {
+        "source": "Whole wheat bread 120g",
+        "alternatives": ["Oats 90g", "Cooked rice 220g", "Boiled potatoes 350g"]
+      }
+    ],
+    "fats": [
+      { "source": "Olive oil", "amount": "10g" },
+      { "source": "Almonds", "amount": "20g" },
+      { "source": "Walnuts", "amount": "20g" },
+      { "source": "Pistachios", "amount": "20g" },
+      { "source": "Peanuts", "amount": "20g" },
+      { "source": "Mixed nuts", "amount": "20g" },
+      { "source": "Avocado", "amount": "50g" }
+    ]
+  }
 }
