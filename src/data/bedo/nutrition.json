@@ -2,19 +2,20 @@
   "profile": "bedo",
   "phase": "Cutting",
   "goals": {
-    "calories": 2800,
+    "calories": 2400,
     "protein": 250,
-    "carbs": 280,
-    "fat": 75,
-    "water": "3-4L",
-    "training": "6 days/week"
+    "carbs": 200,
+    "fat": 65,
+    "water": "3–4 L/day",
+    "training": "5 training days + 2 rest days"
   },
   "notes": [
     "Weigh cooked meats and cooked carbs for accuracy.",
     "Coffee and tea without sugar are allowed.",
     "Drink 3–4 liters of water daily.",
     "Finish training days with 20–30 minutes of cardio.",
-    "Swap within the same category using the substitutions list."
+    "Swap within the same category using the substitutions list.",
+    "Rest days should slightly reduce carbohydrates while keeping protein high and fats balanced."
   ],
   "days": [
     {

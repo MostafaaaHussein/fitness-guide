@@ -2,12 +2,12 @@
   "profile": "julia",
   "phase": "Female Cutting",
   "goals": {
-    "calories": "1750-1800",
+    "calories": 1600,
     "protein": 140,
-    "carbs": 200,
-    "fat": 48,
-    "water": "2.5-3.5L",
-    "training": "6 days/week"
+    "carbs": 160,
+    "fat": 45,
+    "water": "2.5–3.5 L/day",
+    "training": "5 training days + 2 rest days"
   },
   "notes": [
     "Age 25 — female cutting phase focused on fat loss while preserving muscle.",
@@ -15,7 +15,8 @@
     "Coffee and tea without sugar are allowed.",
     "Drink 2.5–3.5 liters of water daily.",
     "Use the substitutions lists to swap proteins, pre-workout carbs/fruit, and fats without blowing macros.",
-    "Finish training days with 20–30 minutes of cardio when possible."
+    "Finish training days with 20–30 minutes of cardio when possible.",
+    "Rest days should slightly reduce carbohydrates while keeping protein high and fats balanced."
   ],
   "days": [
     {
