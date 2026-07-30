@@ -266,8 +266,9 @@ export function getLocalizedNutritionPlan(plan: NutritionPlan, locale: Locale): 
 
   const localizedNotes = plan.notes?.map((note) => translateText(note, locale));
 
+  const substitutionsSource = plan.substitutions ?? {};
   const localizedSubstitutions = Object.fromEntries(
-    Object.entries(plan.substitutions).map(([key, items]) => [
+    Object.entries(substitutionsSource).map(([key, items]) => [
       key,
       items.map((item) => translateSubstitution(item, locale)),
     ])
