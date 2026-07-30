@@ -197,18 +197,6 @@ export function NutritionView({
                   </Badge>
                 </div>
 
-                {meal.alternatives?.length > 0 && (
-                  <div>
-                    <p className="mb-1 text-xs font-medium text-muted-foreground">
-                      {tc("alternatives")}
-                    </p>
-                    <ul className="space-y-0.5 text-sm text-muted-foreground">
-                      {meal.alternatives.map((alt) => (
-                        <li key={alt}>· {alt}</li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
               </article>
             </li>
           );
@@ -225,30 +213,6 @@ export function NutritionView({
         </div>
       )}
 
-      <section className="space-y-3">
-        <h3 className="font-semibold">{t("substitutions")}</h3>
-        {Object.entries(localizedPlan.substitutions).map(([key, items]) => {
-          if (!items || items.length === 0) return null;
-          return (
-            <div key={key} className="rounded-xl border border-border/50 p-3">
-              <p className="mb-2 text-xs font-semibold tracking-wide text-muted-foreground">
-                {t(`subGroups.${key}` as "subGroups.protein")}
-              </p>
-              <ul className="space-y-1.5 text-sm">
-                {items.map((item, i) => (
-                  <li key={`${item.source}-${i}`}>
-                    <span className="font-medium">{item.source}</span>
-                    {item.amount ? ` — ${item.amount}` : ""}
-                    {item.alternatives && item.alternatives.length > 0
-                      ? ` → ${item.alternatives.join(" / ")}`
-                      : ""}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          );
-        })}
-      </section>
     </div>
   );
 }
